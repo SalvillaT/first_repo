@@ -2,5 +2,3 @@
 Este es mi primer repositorio con EDEM
 
 ___Hoy es dia martes 30 de septiembre___
-
-*Hoy ha amanecido nublado*
