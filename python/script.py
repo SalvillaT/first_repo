@@ -164,3 +164,50 @@ else:
 	print("suspendes 5")
 
 
+
+pruebaDicc = {
+	"x" : 7,
+	"y" : "hola",
+	"a" : {
+		"b" : 3
+	},
+	"z" : [1 , 2 , "tutututa" , 4 , 5],
+
+}
+
+if type(pruebaDicc) == dict:
+	print("apruebas 1")
+else:
+	print("suspendes 1")
+
+
+if pruebaDicc["x"] == 7:
+	print("apruebas 2")
+else:
+	print("suspendes 2")
+
+
+if pruebaDicc["y"] == "hola":
+	print("apruebas 3")
+else:
+	print("suspendes 3")
+
+
+if pruebaDicc["a"]["b"] == 3:
+	print("apruebas 4")
+else:
+	print("suspendes 4")
+
+
+if pruebaDicc["z"][1] == 2:
+	print("apruebas 5")
+else:
+	print("suspendes 5")
+
+
+if type(pruebaDicc["z"][2]) == str:
+	print("apruebas 6")
+else:
+	print("suspendes 6")
+
+
