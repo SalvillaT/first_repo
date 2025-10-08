@@ -123,12 +123,15 @@ numSecreto = 7
 
 while num != numSecreto and intentos > 0:
     num = input("Introduca un numero del 1 al 10: ")
-    if not num.isdigit():
-        print("El dato introducido debe de ser un numero") 
+    try:
+        num = int(num)
+    except:
+        print("El dato debe de ser un numero")
         intentos -= 1
         print(f"Te quedan {intentos} intentos")
         continue
-    elif int(num) != numSecreto:
+    
+    if int(num) != numSecreto:
         print("Numero equivocado")
         intentos -= 1
         print(f"Te quedan {intentos} intentos")
